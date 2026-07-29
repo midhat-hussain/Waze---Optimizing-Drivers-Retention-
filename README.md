@@ -1,3 +1,5 @@
+<img width="148" height="148" alt="waze" src="https://github.com/user-attachments/assets/b0855f29-fd86-4f58-b8a1-1a412a702683" />
+
 # Case Study: Driving Retention — Waze User Churn Analysis & Prediction
 ## Project Objective: 
 Analyze monthly user journey data to identify the behavioral drivers behind user churn and build predictive machine learning models to help Waze's marketing and product teams proactively run targeted retention campaigns.  
