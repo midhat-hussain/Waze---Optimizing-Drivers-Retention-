@@ -89,7 +89,7 @@ Next, choose 5% as the significance level and proceed with a two-sample t-test.
 
 #### pvalue = 0.159
 
-Since the p-value is larger than the chosen significance level (5%), you fail to reject the null hypothesis. You conclude that there is not a statistically significant difference in the average number of drives between drivers who use iPhones and drivers who use Androids.
+Since the p-value is larger than the chosen significance level (5%), we fail to reject the null hypothesis. We conclude that there is not a statistically significant difference in the average number of drives between drivers who use iPhones and drivers who use Androids.
 
 ## Machine Learning Models
 
@@ -160,7 +160,7 @@ Now, use the best random forest model and the best XGBoost model to predict on t
 | **XGB val** | 0.387097 | 0.805594 | 0.165680 | 0.232044 |
 
 ### Champion model to predict on test data
-Now, use the champion model to predict on the test dataset. This is to give a final indication of how you should expect the model to perform on new future data, should you decide to use the model.
+Now, we use the champion model to predict on the test dataset. This is to give a final indication of how we should expect the model to perform on new future data, and decide to use the model.
 
 | Index | Model | Precision | Accuracy | Recall | F1 |
 | :---: | :--- | :---: | :---: | :---: | :---: |
@@ -183,7 +183,7 @@ The model predicted three times as many false negatives than it did false positi
 <img width="539" height="312" alt="feature_imp_xgb" src="https://github.com/user-attachments/assets/eccab794-e411-4716-a682-9635f0ec1c7c" />
 
 #### Identify an optimal decision threshold
-The default decision threshold for most implementations of classification algorithms—including scikit-learn's—is 0.5. With imbalanced datasets where the response class is a minority, this threshold might not be ideal. You learned that a precision-recall curve can help to visualize the trade-off between your model's precision and recall.
+The default decision threshold for most implementations of classification algorithms—including scikit-learn's—is 0.5. With imbalanced datasets where the response class is a minority, this threshold might not be ideal. We learned that a precision-recall curve can help to visualize the trade-off between our model's precision and recall.
 
 Here's the precision-recall curve for the XGBoost champion model on the test data.
 
